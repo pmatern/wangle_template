@@ -9,7 +9,7 @@ brew install folly
 #### checkout and build wangle
 ```bash
 git clone https://github.com/facebook/wangle.git
-cd wangle
+cd wangle/wangle
 cmake -DOPENSSL_ROOT_DIR=/usr/local/opt/openssl .
 make
 ctest
