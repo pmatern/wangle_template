@@ -1,5 +1,5 @@
 cmake_minimum_required (VERSION 2.6)
-project (__RENAME__)
+project (__REPLACE__)
 # The version number.
 set (app_VERSION_MAJOR 1)
 set (app_VERSION_MINOR 0)
@@ -28,7 +28,7 @@ endif()
 include_directories("${PROJECT_BINARY_DIR}")
 
 # add the executable
-add_executable(__RENAME__ main.cc)
+add_executable(__REPLACE__ main.cc)
 
 find_package(Folly REQUIRED)
 find_package(Wangle REQUIRED)
@@ -61,7 +61,7 @@ include_directories(
     #${DOUBLE_CONVERSION_INCLUDE_DIRS}
 )
 
-target_link_libraries(__RENAME__ 
+target_link_libraries(__REPLACE__ 
     ${WANGLE_LIBRARIES}
     ${FOLLY_LIBRARIES}
     ${Boost_LIBRARIES}
