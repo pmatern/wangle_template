@@ -1,5 +1,5 @@
 # wangle_template
-template_project for wangle servers
+template project for wangle servers
 
 ### osx build
 #### get folly and its deps
