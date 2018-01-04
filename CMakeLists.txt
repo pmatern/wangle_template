@@ -1,5 +1,5 @@
 cmake_minimum_required (VERSION 2.6)
-project (app)
+project (gegergerg)
 # The version number.
 set (app_VERSION_MAJOR 1)
 set (app_VERSION_MINOR 0)
@@ -28,7 +28,7 @@ endif()
 include_directories("${PROJECT_BINARY_DIR}")
 
 # add the executable
-add_executable(app main.cc)
+add_executable(gegergerg main.cc)
 
 find_package(Folly REQUIRED)
 find_package(Wangle REQUIRED)
@@ -61,7 +61,7 @@ include_directories(
     #${DOUBLE_CONVERSION_INCLUDE_DIRS}
 )
 
-target_link_libraries(app 
+target_link_libraries(gegergerg 
     ${WANGLE_LIBRARIES}
     ${FOLLY_LIBRARIES}
     ${Boost_LIBRARIES}
