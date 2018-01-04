@@ -9,4 +9,4 @@ compile_commands.json
 CTestTestfile.cmake
 
 app_config.h
-app
+__REPLACE__

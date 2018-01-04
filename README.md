@@ -17,6 +17,7 @@ sudo make install
 ```
 #### build app
 ```bash
+sh rename_app.sh {your app name}
 sh run_cmake_osx.sh
 ```
 
